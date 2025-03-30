@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
         buildDependencies: {
           config: [__filename],
         },
-        cacheDirectory: '.next/cache/webpack',
+        cacheDirectory: '.next/cache',
       };
       
       // 优化模块解析缓存
